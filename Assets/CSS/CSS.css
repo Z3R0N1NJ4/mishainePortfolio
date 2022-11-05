@@ -1,0 +1,416 @@
+
+/*--------------------CSS BODY-------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    font-family: 'Dosis', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background: radial-gradient(whitesmoke,rgb(244, 217, 129)) !important;
+}
+
+.background{
+    min-width: 50%;
+}
+
+/*--------------------Navbar-------------------*/
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    background: rgba(0, 0, 0, 0.66) !important;
+    padding: 15px 0 !important;
+    overflow-x: hidden;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: whitesmoke;
+    padding-left: 20px !important;
+}
+
+.nav-link:hover{
+    color:rgb(212, 175, 55) !important;
+}
+
+
+/*--------------------heading-------------------*/
+
+.heading{
+  position: absolute;
+  top: 56%;
+  width: 100%;
+  min-width: 100%;
+}
+
+.heading h5{
+   font-size: 3em;
+   font-weight: 300;
+   color: whitesmoke !important;
+}
+
+.heading h1{
+   font-size: 5em;
+   font-weight: bolder;
+   color: whitesmoke !important;
+}
+
+.heading p{
+   font-size: 2rem;
+   font-weight: 300;
+   color: whitesmoke !important;
+}
+
+hr{
+    color:rgba(0, 0, 0, 0.8) !important;
+
+}
+
+/*--------------------about page-------------------*/
+
+#about .more{
+    border: 2px solid transparent !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    width: 40%;
+    padding: 8px 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#about .more a{
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+
+#about .more:hover{
+    border: 2px solid rgb(212, 175, 55) !important;
+    color: rgb(212, 175, 55) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+ /*-------------------Testimonial Page-------------------*/
+
+.Test{
+    margin-top: 8% !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.Test, p{
+    font-size: em;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8) !important;
+}
+
+
+/*-------------------Skill Page-------------------*/
+
+#skills1{
+    margin-left: 10% !important;
+}
+
+#skills2{
+    margin-left: 30% !important;
+}
+
+#skills3{
+    margin-left: 50% !important;
+}
+
+#SkillC, #SkillB, #SkillA{
+  padding-top: 3% !important;
+  margin-left: 11.1% !important;
+  margin-bottom: 2% !important;
+  }
+
+  /*--------------------Procard-------------------*/
+
+#Procard1, #Procard2, #Procard3{
+    margin-left: 11% !important;
+}
+
+.btn{
+    border: 2px solid transparent !important;
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.btn a{
+    color: whitesmoke !important;
+    text-decoration: none !important;
+}
+
+.btn:hover{
+    border: 2px solid rgb(212, 175, 55) !important;
+    color: rgb(212, 175, 55) !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+  /*--------------------Footer-------------------*/
+
+  footer ul li .bi{
+    width: 100%;
+    color: rgb(212, 175, 55) !important;
+  }
+
+  footer{
+    background-color: rgba(0, 0, 0, 0.8);
+    /* padding: 40px 80px; */
+  }
+
+  footer p{
+    color: whitesmoke !important;
+    text-align: center;
+    margin-top: 2% !important;
+  }
+
+  .social-links li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 1% !important;
+    margin-left: 1%;
+  }
+
+  footer #icons{
+    margin-left: 41% !important;
+    margin-top: 2% !important;
+  } 
+
+
+
+  /*--------------------media queries-------------------*/
+
+@media only screen and (max-width: 1177px){
+    .heading{
+        font-size: x-small;
+        position: relative;
+        top: 75%;
+        width: 100%;
+        min-width: 100%;
+      }
+
+    .heading h1{
+        color: rgba(0, 0, 0, 0.8) !important;
+    }
+    .heading h5{
+        color: rgba(0, 0, 0, 0.8) !important;
+    }
+    .heading p{
+        color: rgba(0, 0, 0, 0.8) !important;
+    }
+    .Test{
+        margin-top: 10% !important;
+    }
+
+    #skills1{
+        margin-left: 10% !important;
+    }
+
+    #skills2{
+        margin-left: 15% !important;
+    }
+
+    #skills3{
+        margin-left: 20% !important;
+    }
+
+    #work{
+      padding-top: 25%;
+      margin-right: 4px !important;
+      margin-top: -30px !important;
+    }
+
+    #SkillC, #SkillB, #SkillA{
+      padding-top: 3% !important;
+      margin-left: 5% !important;
+      margin-bottom: 2% !important;
+      }
+}
+
+@media only screen and (max-width: 800px){
+    .Test{
+        margin-top: 15% !important;
+    }
+    #about2{
+        margin-top: 15px !important;
+    }
+    #cardn{
+        margin-top: 15px !important;
+        margin-left: 4% !important;
+    }
+
+    #card5{
+        margin-left: 3% !important;
+        width: 94% !important;
+    }
+
+
+    #skills1{
+        margin-left: 3% !important;
+    }
+
+    #skills2{
+        margin-left: 12% !important;
+    }
+
+    #skills3{
+        margin-left: 21% !important;
+    }
+
+    
+    #work{
+      padding-top: 12%;
+      margin-right: 50px !important;
+      margin-top: -40px !important;
+    }
+
+    #SkillB, #SkillA{
+    padding-top: 3% !important;
+    margin-left: 7.5% !important;
+    margin-bottom: 2% !important;
+    }
+
+    #SkillC{
+      padding-top: 3% !important;
+      margin-left: 31% !important;
+    }
+
+    #Procard1, #Procard2{
+    padding-top: 3% !important;
+    margin-left: 7.5% !important;
+    margin-bottom: 2% !important;
+    }
+
+    #Procard3{
+      padding-top: 3% !important;
+      margin: auto !important;
+    }
+
+    .social-links li{
+        list-style: none;
+        display: inline-block;
+        padding-left: 1% !important;
+        margin-left: 1%;
+      }
+    
+      footer #icons{
+        margin-left: 36.5% !important;
+        margin-top: 2% !important;
+      }
+
+    #skills1{  
+        margin-left: 5% !important;
+        
+    }
+    #skills1 #work{ 
+
+        margin-right: 0px !important;
+        
+    }
+    
+    #skills2{
+        margin-left: 12.5% !important;
+    }
+
+    #skills2 #work{ 
+
+        margin-right: 0px !important;
+        
+    }
+    
+    #skills3{
+        margin-left: 20% !important;
+    } 
+
+    #skills3 #work{ 
+
+        margin-right: 0px !important;
+        
+    }
+        
+
+}
+
+@media only screen and (max-width: 450px){
+    .navbar{
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        background: rgba(0, 0, 0, 0.66) !important;
+        padding: 8px 0 !important;
+    }
+    .Test{
+        margin-top: 25% !important;
+    }
+    #about{
+        padding: -10px !important;
+    }
+    #about .more{
+        padding: 2px;
+    }
+    #about2{
+        margin-top: 20px !important;
+    }
+
+    #skills1{
+        margin-left: 0% !important;
+    }
+
+    #skills2{
+        margin-left: 0% !important;
+    }
+
+    #skills3{
+        margin-left: 0% !important;
+    }
+
+    #work{
+      padding-top: 23.5%;
+      margin-right: 4px !important;
+      margin-top: -40px !important;
+    }
+
+    #SkillC, #SkillB, #SkillA{
+      margin: auto !important;
+      margin-bottom: 2% !important;
+      padding-top: 3% !important;
+    }
+
+    #Procard1, #Procard2, #Procard3{
+      margin: auto !important;
+      margin-bottom: 2% !important;
+      padding-top: 3% !important;
+    }
+
+    .social-links li{
+        list-style: none;
+        display: inline-block;
+        padding-left: 1% !important;
+        margin-left: 1%;
+        width: 15px;
+      }
+    
+      footer #icons{
+        margin-left: 28.5% !important;
+        margin-top: 0% !important;
+      } 
+    
+}
+
+@media only screen and (max-width: 250px){
+    .Test{
+        margin-top: 30% !important;
+    }
+
+}
